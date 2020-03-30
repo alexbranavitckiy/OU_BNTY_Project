@@ -8,6 +8,8 @@ import { MidleComponent } from './home/midle/midle.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { HeaderComponent } from './home/header/header.component';
 import {BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
+import { CarouselComponent } from './home/midle/carousel/carousel.component';
+import { SidebarComponent } from './home/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
     HomeComponent,
     MidleComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarouselComponent,
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
