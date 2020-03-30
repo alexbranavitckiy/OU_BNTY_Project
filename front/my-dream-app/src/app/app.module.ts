@@ -7,9 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { MidleComponent } from './home/midle/midle.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { HeaderComponent } from './home/header/header.component';
-import {BsDropdownModule, ModalModule, TooltipModule} from "ngx-bootstrap";
 import { CarouselComponent } from './home/midle/carousel/carousel.component';
-import { SidebarComponent } from './home/sidebar/sidebar.component';
+import { SidebarComponent } from './home/midle/sidebar/sidebar.component';
+import {RouterModule, Routes} from '@angular/router';
+import {BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent},
+  { path: '**', component: HomeComponent }
+];
 
 @NgModule({
   declarations: [
@@ -22,6 +28,7 @@ import { SidebarComponent } from './home/sidebar/sidebar.component';
     SidebarComponent,
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
