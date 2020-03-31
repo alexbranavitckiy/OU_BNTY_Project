@@ -1,20 +1,21 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { MidleComponent } from './home/midle/midle.component';
-import { FooterComponent } from './home/footer/footer.component';
-import { HeaderComponent } from './home/header/header.component';
-import { CarouselComponent } from './home/midle/carousel/carousel.component';
-import { SidebarComponent } from './home/midle/sidebar/sidebar.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {HomeComponent} from './home/home.component';
+import {MidleComponent} from './home/midle/midle.component';
+import {FooterComponent} from './home/footer/footer.component';
+import {HeaderComponent} from './home/header/header.component';
+import {CarouselComponent} from './home/midle/carousel/carousel.component';
+import {SidebarComponent} from './home/midle/sidebar/sidebar.component';
 import {RouterModule, Routes} from '@angular/router';
 import {BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
+import {ContentComponent} from './home/midle/content/content.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent},
-  { path: '**', component: HomeComponent }
+  {path: '', component: HomeComponent},
+  {path: '**', component: HomeComponent}
 ];
 
 @NgModule({
@@ -26,6 +27,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     CarouselComponent,
     SidebarComponent,
+    ContentComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
@@ -38,4 +40,5 @@ const appRoutes: Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

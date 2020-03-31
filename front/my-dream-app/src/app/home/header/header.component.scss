@@ -1,5 +1,36 @@
 .header {
-  background-color: #1A6E1A;
   padding: 1%;
+  text-align: center;
+
+}
+
+.header.img {
+  width: 100% \9;
+  height: auto;
+}
+
+.site-name {
+  text-align: start;
+  color: #F4f5CD;
+}
+
+.site-slogan {
+  text-align: start;
+  color: #F4f5CD;
+  font-size: 1.47em;
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+.site-name-slogan {
+}
+
+.form-search {
+  input {
+    background-color: #6fc36f;
+    color: rgba(43, 43, 43, 0.98);
+    border: none;
+  }
 }
 

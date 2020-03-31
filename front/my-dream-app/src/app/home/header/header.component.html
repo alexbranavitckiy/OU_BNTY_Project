@@ -1,14 +1,33 @@
 <div class="container-fluid header">
-  <div class="row justify-content-center ">
-    <div class="col-md-2"><img src="http://iifoimo.bntu.by/sites/iifoimo.bntu.by/themes/bntu_iifoimo/logo.png"
-                               alt="Институт интегрированных форм обучения и мониторинга образования"></div>
-    <div class="col-md-8">
-      <div class="row justify-content-center">
-        <div class="col"><h4>Институт интегрированных форм обучения и мониторинга образования</h4>
-          <div class="col"><h5>Белорусский национальный технический университет</h5></div>
-        </div>
+  <div class="row">
+    <div class="col-md-2 "><img class="img-fluid"
+                                src="http://iifoimo.bntu.by/sites/iifoimo.bntu.by/themes/bntu_iifoimo/logo.png"
+                                alt="Институт интегрированных форм обучения и мониторинга образования"></div>
+    <div class="col-md-8   site-name-slogan">
+      <h4 class=" site-name">Институт интегрированных форм обучения и мониторинга образования</h4>
+      <h5 class="site-slogan strong">Белорусский национальный технический университет</h5>
+    </div>
+    <div class="col-md-2 d-none d-lg-block">
+      <div class="row">
+        <form class=" form-inline " action="" method="get">
+          <input type="text" placeholder="Искать здесь...">
+          <button type="submit">g</button>
+        </form>
       </div>
     </div>
-    <div class="col-md-2"><input ></div>
   </div>
 </div>
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="inputEmail">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="inputPassword">Пароль</label>
+    <input type="password" class="form-control" id="inputPassword" placeholder="Пароль">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Запомнить</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Войти</button>
+</form>
