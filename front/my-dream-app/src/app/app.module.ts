@@ -12,6 +12,8 @@ import {SidebarComponent} from './home/midle/sidebar/sidebar.component';
 import {RouterModule, Routes} from '@angular/router';
 import {BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
 import {ContentComponent} from './home/midle/content/content.component';
+import { FooterTopComponent } from './home/footer/footer-top/footer-top.component';
+import { FooterBottomComponent } from './home/footer/footer-bottom/footer-bottom.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -28,6 +30,8 @@ const appRoutes: Routes = [
     CarouselComponent,
     SidebarComponent,
     ContentComponent,
+    FooterTopComponent,
+    FooterBottomComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

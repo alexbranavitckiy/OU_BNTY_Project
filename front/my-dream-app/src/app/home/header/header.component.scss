@@ -1,8 +1,15 @@
 .header {
   padding: 1%;
   text-align: center;
+  background-color: #1a6e1a;
+}
+
+
+.background_color {
+  background-color: #1a6e1a;
 
 }
+
 
 .header.img {
   width: 100% \9;
@@ -37,12 +44,14 @@
 
 form {
   position: relative;
-  width: 300px;
-  margin: 0 auto;
+
+  /* width: 300px;
+  margin: 0 auto; */
 }
+
 input {
   width: 100%;
-  height: 42px;
+  height: 32px;
   padding-left: 10px;
   border: 2px solid #7BA7AB;
   border-radius: 5px;
@@ -50,17 +59,19 @@ input {
   background: #F9F0DA;
   color: #519e3f;
 }
+
 button {
   position: absolute;
   top: 0;
   right: 0px;
   width: 42px;
-  height: 42px;
+  height: 32px;
   border: none;
   background: #4aab4f;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
+
 button:before {
   font-family: FontAwesome;
   font-size: 16px;
