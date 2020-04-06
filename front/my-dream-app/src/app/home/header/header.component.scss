@@ -1,7 +1,11 @@
+
+
+.background_color_footer{
+  background-color: #2d812d;
+}
 .header {
   padding: 1%;
   text-align: center;
-  background-color: #1a6e1a;
 }
 
 
@@ -33,47 +37,3 @@
 .site-name-slogan {
 }
 
-.form-search {
-  input {
-    background-color: #6fc36f;
-    color: rgba(43, 43, 43, 0.98);
-    border: none;
-  }
-}
-
-
-form {
-  position: relative;
-
-  /* width: 300px;
-  margin: 0 auto; */
-}
-
-input {
-  width: 100%;
-  height: 32px;
-  padding-left: 10px;
-  border: 2px solid #7BA7AB;
-  border-radius: 5px;
-  outline: none;
-  background: #F9F0DA;
-  color: #519e3f;
-}
-
-button {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  width: 42px;
-  height: 32px;
-  border: none;
-  background: #4aab4f;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-}
-
-button:before {
-  font-family: FontAwesome;
-  font-size: 16px;
-  color: #F9F0DA;
-}
