@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-midle',
-  templateUrl: './midle.component.html',
-  styleUrls: ['./midle.component.scss']
+  templateUrl: './middle.component.html',
+  styleUrls: ['./middle.component.scss']
 })
-export class MidleComponent implements OnInit {
+export class MiddleComponent implements OnInit {
 
   constructor() { }
 

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MidleComponent } from './midle.component';
+import { MiddleComponent } from './middle.component';
 
 describe('MidleComponent', () => {
-  let component: MidleComponent;
-  let fixture: ComponentFixture<MidleComponent>;
+  let component: MiddleComponent;
+  let fixture: ComponentFixture<MiddleComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MidleComponent ]
+      declarations: [ MiddleComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MidleComponent);
+    fixture = TestBed.createComponent(MiddleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

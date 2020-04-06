@@ -4,14 +4,14 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
-import {MidleComponent} from './home/midle/midle.component';
+import {MiddleComponent} from './home/middle/middle.component';
 import {FooterComponent} from './home/footer/footer.component';
 import {HeaderComponent} from './home/header/header.component';
-import {CarouselComponent} from './home/midle/carousel/carousel.component';
-import {SidebarComponent} from './home/midle/sidebar/sidebar.component';
+import {CarouselComponent} from './home/middle/carousel/carousel.component';
+import {SidebarComponent} from './home/middle/sidebar/sidebar.component';
 import {RouterModule, Routes} from '@angular/router';
 import {AccordionComponent, AccordionModule, BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
-import {ContentComponent} from './home/midle/content/content.component';
+import {ContentComponent} from './home/middle/content/content.component';
 import { FooterTopComponent } from './home/footer/footer-top/footer-top.component';
 import { FooterBottomComponent } from './home/footer/footer-bottom/footer-bottom.component';
 
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     HomeComponent,
-    MidleComponent,
+    MiddleComponent,
     FooterComponent,
     HeaderComponent,
     CarouselComponent,
