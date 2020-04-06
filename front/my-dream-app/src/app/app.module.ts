@@ -15,6 +15,9 @@ import {ContentComponent} from './home/midle/content/content.component';
 import { FooterTopComponent } from './home/footer/footer-top/footer-top.component';
 import { FooterBottomComponent } from './home/footer/footer-bottom/footer-bottom.component';
 
+import { FormEntryComponent } from './form/form-entry/form-entry.component';
+import { FormSearchComponent } from './form/form-search/form-search.component';
+
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: '**', component: HomeComponent}
@@ -32,6 +35,8 @@ const appRoutes: Routes = [
     ContentComponent,
     FooterTopComponent,
     FooterBottomComponent,
+    FormEntryComponent,
+    FormSearchComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
