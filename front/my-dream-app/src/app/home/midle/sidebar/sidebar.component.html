@@ -1,10 +1,21 @@
 <div class="container">
   <h3>Меню навигации</h3>
-  <ul class="list-group">
-   <a href="#"><li class="list-group-item">Cras justo odio</li></a>
-    <a href="#"><li class="list-group-item">Dapibus ac facilisis in</li></a>
-    <a href="#"> <li class="list-group-item">Morbi leo risus</li></a>
-    <a href="#"><li class="list-group-item">Porta ac consectetur ac</li></a>
-    <a href="#"> <li class="list-group-item">Vestibulum at eros</li></a>
-  </ul>
+
+
+
+  <accordion [isAnimated]="true">
+    <accordion-group heading="Static Header">
+      This content is straight in the template.
+    </accordion-group>
+    <accordion-group heading="Another group">
+      <p>Some content</p>
+    </accordion-group>
+    <accordion-group heading="Another group">
+      <p>Some content</p>
+    </accordion-group>
+    <accordion-group heading="Another group">
+      <p>Some content</p>
+    </accordion-group>
+  </accordion>
+
 </div>

@@ -10,13 +10,14 @@ import {HeaderComponent} from './home/header/header.component';
 import {CarouselComponent} from './home/midle/carousel/carousel.component';
 import {SidebarComponent} from './home/midle/sidebar/sidebar.component';
 import {RouterModule, Routes} from '@angular/router';
-import {BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
+import {AccordionComponent, AccordionModule, BsDropdownModule, ModalModule, TooltipModule} from 'ngx-bootstrap';
 import {ContentComponent} from './home/midle/content/content.component';
 import { FooterTopComponent } from './home/footer/footer-top/footer-top.component';
 import { FooterBottomComponent } from './home/footer/footer-bottom/footer-bottom.component';
 
 import { FormEntryComponent } from './form/form-entry/form-entry.component';
 import { FormSearchComponent } from './form/form-search/form-search.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
     AppRoutingModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),  BrowserAnimationsModule,
+    AccordionModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
