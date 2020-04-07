@@ -2,35 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01547ee4-d18a-48f2-85f1-7daac4a10a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fapi/fapi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fapi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/packagScan/BackendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fapi/src/main/java/packagScan/FapiApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/carousel/carousel.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/carousel/carousel.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/carousel/carousel.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/carousel/carousel.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/carousel/carousel.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/carousel/carousel.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/carousel/carousel.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/carousel/carousel.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/content/content.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/content/content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/content/content.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/content/content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/midle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/midle.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/midle.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/midle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/sidebar/sidebar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/sidebar/sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/midle/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectJira" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +56,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\User\Desktop\BNTY_Project\front\my-dream-app\node_modules\typescript\lib" />
   </component>
@@ -123,6 +117,8 @@
       <workItem from="1585895517607" duration="9312000" />
       <workItem from="1586093606053" duration="4657000" />
       <workItem from="1586155257735" duration="8078000" />
+      <workItem from="1586194695572" duration="778000" />
+      <workItem from="1586239776622" duration="4274000" />
     </task>
     <task id="LOCAL-00001" summary="start work with fapi">
       <created>1586182101395</created>
@@ -143,6 +139,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="start work with fapi" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1586244743100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586244743100" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586096488756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -151,82 +151,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586182098132" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1586182466431">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586241667673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586241667673" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586182466431" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1586182466431">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586182466431" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1586182466431">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586187508178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1024.718@0.0.1024.718" timestamp="1585587453001" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586182466431" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1586182466431">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508178" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586182466431" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586187508179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" timestamp="1586187508181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508181" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
-    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1586182394957">
+    <state width="1493" height="261" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1586182394957" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
     <state x="557" y="123" key="RollbackChangesDialog" timestamp="1586176926487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586176926487" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586155323894">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586239896861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586155323894" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586239896861" />
     <state x="97" y="65" key="new project wizard" timestamp="1586185843552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
