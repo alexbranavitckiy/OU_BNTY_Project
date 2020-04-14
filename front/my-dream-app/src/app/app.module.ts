@@ -17,7 +17,13 @@ import { FooterBottomComponent } from './home/footer/footer-bottom/footer-bottom
 
 import { FormEntryComponent } from './form/form-entry/form-entry.component';
 import { FormSearchComponent } from './form/form-search/form-search.component';
+
+import { TemplateComponent } from './template/template.component';
+import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ServiceHttp} from "./serviceHttp/ServiceHttp";
+import {FormsModule} from "@angular/forms";
+
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
@@ -38,17 +44,18 @@ const appRoutes: Routes = [
     FooterBottomComponent,
     FormEntryComponent,
     FormSearchComponent,
+    TemplateComponent,
   ],
   imports: [
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes),HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
-    ModalModule.forRoot(),  BrowserAnimationsModule,
-    AccordionModule.forRoot(),
+    ModalModule.forRoot(), BrowserAnimationsModule,
+    AccordionModule.forRoot(), FormsModule,
   ],
-  providers: [],
+  providers: [ServiceHttp],
   bootstrap: [AppComponent]
 })
 export class AppModule {

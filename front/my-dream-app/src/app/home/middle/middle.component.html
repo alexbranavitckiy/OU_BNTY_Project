@@ -1,11 +1,19 @@
-<div class="container-fluid middle">
+<div class=" middle">
   <div class="row">
-    <div class="col-md-3">
-      <app-sidebar></app-sidebar>
+    <div class="col-md-3 ">
+      <div class="">
+        <app-sidebar></app-sidebar>
+      </div>
     </div>
     <div class="col-md-9">
       <div class="container-fluid">
-        <app-content></app-content>
+        <input type="text" [(ngModel)]="nomer" name="name">
+        <input type="text" [(ngModel)]="sizzw2" name="name">
+        <input type="text" [(ngModel)]="sizzw" name="name">
+
+
+        <app-template  [sizzw2]="sizzw2" [sizzw]="sizzw" [templateNumber]="nomer"></app-template>
+
       </div>
     </div>
   </div>

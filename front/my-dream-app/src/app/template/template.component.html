@@ -1,6 +1,6 @@
-<div class="container content">
+<div [ngSwitch]="templateNumber" class="container content">
   <div class="card">
-    <div class="card-body">
+    <div *ngSwitchCase="1" class="card-body">
       <h5 class="card-title">Институт объединяет в своем составе:</h5>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">кафедру «Естественнонаучные и творческие дисциплины»;</li>
@@ -14,7 +14,7 @@
       </ul>
     </div>
 
-    <div class="card-body">
+    <div *ngSwitchCase="2" class="card-body">
       <h5 class="card-title">Название карточки</h5>
       <p class="card-text">Для успешной реализации связей между университетом и учреждениями образования республики
         при БНТУ в 2006 году на базе факультета довузовской подготовки и Регионального центра
@@ -22,8 +22,12 @@
         директором которого является кандидат технических наук, доцент Воронова Наталья Петровна.</p>
     </div>
 
-    <div class="card-body">
+    <div class="card-body" *ngSwitchDefault>
+      <div  [ngStyle]="{'font-size': sizzw}">
+        Hello Angular 9
+      </div>
       <h5 class="card-title">Название карточки</h5>
+      <div [innerHTML]="mass"></div>
       <ul class="card-text">
         <li>кафедру «Естественнонаучные и творческие дисциплины»;</li>
         <li> региональный центр тестирования и профессиональной ориентации учащейся молодежи;</li>
@@ -34,7 +38,7 @@
         <li> отдел мониторинга качества образования.</li>
       </ul>
     </div>
-    <div class="card-body">
+    <div *ngSwitchCase="4" class="card-body">
       <h5 class="card-title">N813</h5>
       <div class="card-text">
         <ul>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-midle',
@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiddleComponent implements OnInit {
 
-  constructor() { }
+
+
+  nomer:number;
+  sizzw:string;
+  sizzw2:string;
+
+  hg():string{
+    return '"'+this.sizzw+'"'
+  }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
+
 
 }

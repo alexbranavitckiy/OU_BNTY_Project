@@ -2,14 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01547ee4-d18a-48f2-85f1-7daac4a10a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/packagScan/BackendApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fapi/src/main/java/packagScan/FapiApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fapi/src/main/java/packagScan/controller/ModelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/serviceHttp/ServiceHttp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fapi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fapi/fapi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/proxy.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -44,21 +56,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectJira" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/front/my-dream-app/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="ts.external.directory.path" value="C:\Users\User\Desktop\BNTY_Project\front\my-dream-app\node_modules\typescript\lib" />
   </component>
@@ -71,12 +88,49 @@
     <configuration name="E2E Tests (my-dream-app)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/front/my-dream-app/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/front/my-dream-app/node_modules/protractor" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="SidebarComponent" type="JavaScriptTestRunnerProtractor" temporary="true" nameIsGenerated="true">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/front/my-dream-app/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.spec.ts" />
+      <test-names>
+        <test-name value="SidebarComponent" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="FapiApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="packagScan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="packagScan.FapiApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ng" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/my-dream-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ng" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -92,6 +146,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Spring Boot.FapiApp" />
+        <item itemvalue="npm.ng" />
+        <item itemvalue="Protractor.SidebarComponent" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +175,16 @@
       <workItem from="1586093606053" duration="4657000" />
       <workItem from="1586155257735" duration="8078000" />
       <workItem from="1586194695572" duration="778000" />
-      <workItem from="1586239776622" duration="4274000" />
+      <workItem from="1586239776622" duration="11204000" />
+      <workItem from="1586331666176" duration="4483000" />
+      <workItem from="1586413045073" duration="3416000" />
+      <workItem from="1586426102007" duration="24661000" />
+      <workItem from="1586586238776" duration="23851000" />
+      <workItem from="1586712859585" duration="14684000" />
+      <workItem from="1586800248282" duration="1190000" />
+      <workItem from="1586844369766" duration="12234000" />
+      <workItem from="1586878399746" duration="2298000" />
+      <workItem from="1586881555391" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="start work with fapi">
       <created>1586182101395</created>
@@ -139,58 +205,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="start work with fapi" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1586244743100">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1586876181517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586244743100" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586096488756">
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1586876181517" />
+    <state x="425" y="110" key="#SidebarComponent" timestamp="1586713461488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586096488756" />
+    <state x="425" y="110" key="#SidebarComponent/0.0.1536.824@0.0.1536.824" timestamp="1586713461488" />
+    <state x="428" y="130" key="#TSLint" timestamp="1586881283699">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="428" y="130" key="#TSLint/0.0.1536.824@0.0.1536.824" timestamp="1586881283699" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586870336855">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586870336855" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1586591378368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586591378368" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586675973764">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586675973764" />
     <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1586182098132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586182098132" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586241667673">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586875617903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586241667673" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586187508179">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586875617903" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586187508179">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586187508178">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1024.718@0.0.1024.718" timestamp="1585587453001" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508178" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586187508179">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586187508180">
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586187508180" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586187508179">
+    <state width="1493" height="207" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.1.center" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586187508179">
+    <state width="1493" height="207" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.1.left" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586187508179">
+    <state width="1493" height="207" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right" timestamp="1586876188833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586187508179" />
+    <state width="1493" height="207" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586876188833" />
     <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1586187508180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -227,17 +309,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586176926487" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586239896861">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586881555396">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586239896861" />
-    <state x="97" y="65" key="new project wizard" timestamp="1586185843552">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586881555396" />
+    <state x="97" y="65" key="new project wizard" timestamp="1586255627233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="97" y="65" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586185843552" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585329257952">
+    <state x="97" y="65" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586255627233" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586503569199">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585329257952" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586503569199" />
   </component>
 </project>
