@@ -21,8 +21,9 @@ import { FormSearchComponent } from './form/form-search/form-search.component';
 import { TemplateComponent } from './template/template.component';
 import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {ServiceHttp} from "./serviceHttp/ServiceHttp";
 import {FormsModule} from "@angular/forms";
+import {Services} from "./services/Services";
+import {SideBarDirectiv} from "./directive/SideBarDirectiv";
 
 
 const appRoutes: Routes = [
@@ -31,7 +32,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
+  declarations: [SideBarDirectiv,
     AppComponent,
     HomeComponent,
     MiddleComponent,
@@ -55,7 +56,7 @@ const appRoutes: Routes = [
     ModalModule.forRoot(), BrowserAnimationsModule,
     AccordionModule.forRoot(), FormsModule,
   ],
-  providers: [ServiceHttp],
+  providers: [Services],
   bootstrap: [AppComponent]
 })
 export class AppModule {

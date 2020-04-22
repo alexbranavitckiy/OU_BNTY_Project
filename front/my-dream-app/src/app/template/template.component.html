@@ -1,54 +1,39 @@
-<div [ngSwitch]="templateNumber" class="container content">
-  <div class="card">
-    <div *ngSwitchCase="1" class="card-body">
-      <h5 class="card-title">Институт объединяет в своем составе:</h5>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">кафедру «Естественнонаучные и творческие дисциплины»;</li>
-        <li class="list-group-item">региональный центр тестирования и профессиональной ориентации учащейся молодежи;
-        </li>
-        <li class="list-group-item">лицей БНТУ;</li>
-        <li class="list-group-item">подготовительные курсы;</li>
-        <li class="list-group-item">отдел профориентационной работы;</li>
-        <li class="list-group-item">отдел профориентационной работы;</li>
-        <li class="list-group-item">отдел мониторинга качества образования.</li>
-      </ul>
-    </div>
-
-    <div *ngSwitchCase="2" class="card-body">
-      <h5 class="card-title">Название карточки</h5>
-      <p class="card-text">Для успешной реализации связей между университетом и учреждениями образования республики
-        при БНТУ в 2006 году на базе факультета довузовской подготовки и Регионального центра
-        тестирования был создан Институт интегрированный форм обучения и мониторинга образования,
-        директором которого является кандидат технических наук, доцент Воронова Наталья Петровна.</p>
-    </div>
-
-    <div class="card-body" *ngSwitchDefault>
-      <div  [ngStyle]="{'font-size': sizzw}">
-        Hello Angular 9
-      </div>
-      <h5 class="card-title">Название карточки</h5>
-      <div [innerHTML]="mass"></div>
-      <ul class="card-text">
-        <li>кафедру «Естественнонаучные и творческие дисциплины»;</li>
-        <li> региональный центр тестирования и профессиональной ориентации учащейся молодежи;</li>
-        <li> лицей БНТУ;</li>
-        <li> подготовительные курсы;</li>
-        <li> подготовительное отделение;</li>
-        <li> отдел профориентационной работы;</li>
-        <li> отдел мониторинга качества образования.</li>
-      </ul>
-    </div>
-    <div *ngSwitchCase="4" class="card-body">
-      <h5 class="card-title">N813</h5>
-      <div class="card-text">
-        <ul>
-          <li>1</li>
-        </ul>
-        <ol>
-          <li>1</li>
+<div class="container content" [ngSwitch]="templateNumber">
+  <div *ngSwitchCase="1">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{text[1].text}}</h5>
+        <ol class="list-group list-group-flush">
+          <li class="list-group-item">{{text[2].text}}</li>
+          <li class="list-group-item">{{text[3].text}}</li>
+          <li class="list-group-item">{{text[4].text}}</li>
+          <li class="list-group-item">{{text[5].text}}</li>
         </ol>
       </div>
     </div>
   </div>
+  <div *ngSwitchCase="2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{text[1].text}}</h5>
+        <ol class="list-group list-group-flush">
+          <li class="list-group-item">{{text[2].text}}</li>
+          <li class="list-group-item">{{text[3].text}}</li>
+          <li class="list-group-item">{{text[4].text}}</li>
+          <li class="list-group-item">{{text[5].text}}</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div *ngSwitchCase="3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{text[1].text}}</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
 </div>
 
