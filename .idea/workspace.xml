@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01547ee4-d18a-48f2-85f1-7daac4a10a9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/contentModel/content.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/contentModel/myText.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/contentModel/sideBar.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/jumbotron/jumbotron.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/jumbotron/jumbotron.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/jumbotron/jumbotron.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/jumbotron/jumbotron.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/services/contentsServices.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/services/service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-bar-template/side-bar-template.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-bar-template/side-bar-template.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-bar-template/side-bar-template.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-bar-template/side-bar-template.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-template/side-template.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-template/side-template.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-template/side-template.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/side-template/side-template.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/directive/SideBarDirectiv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/directive/SideBarDirectiv.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/footer/footer-top/footer-top.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/footer/footer-top/footer-top.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/content/content.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/middle.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/home/middle/sidebar/sidebar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/model/content.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/model/sideBar.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/model/styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/contentModel/myStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/model/template.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/model/texting.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/services/Services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/services/services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/services/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/services/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/template/template.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/template/template.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/my-dream-app/src/app/template/template.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/my-dream-app/src/app/template/template.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +204,7 @@
       <workItem from="1587302469630" duration="6901000" />
       <workItem from="1587456973017" duration="54348000" />
       <workItem from="1587596022801" duration="13532000" />
-      <workItem from="1587720527892" duration="18136000" />
+      <workItem from="1587720527892" duration="20320000" />
     </task>
     <task id="LOCAL-00001" summary="start work with fapi">
       <created>1586182101395</created>
@@ -285,26 +265,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587736021652" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1587739282388">
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1587760803628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.bottom/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587739282388" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1587739282388">
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587760803628" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1587760803628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.center/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587739282388" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1587739282388">
+    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587760803628" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1587760803627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.left/0.0.1024.718@0.0.1024.718" timestamp="1585587453001" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587739282388" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1587739282388">
+    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587760803627" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1587760803628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="170" key="GridCell.Tab.0.right/0.0.1024.718@0.0.1024.718" timestamp="1585587453003" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587739282388" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587760803628" />
     <state width="1493" height="211" key="GridCell.Tab.1.bottom" timestamp="1587458780173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

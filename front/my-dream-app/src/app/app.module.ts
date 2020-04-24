@@ -26,6 +26,8 @@ import {Services} from "./services/services";
 import {SideBarDirectiv} from "./directive/SideBarDirectiv";
 import { JumbotronComponent } from './home/middle/jumbotron/jumbotron.component';
 import {ContentsServices} from "./services/contentsServices";
+import { SideBarTemplateComponent } from './home/middle/sidebar/side-bar-template/side-bar-template.component';
+import { SideTemplateComponent } from './home/middle/sidebar/side-template/side-template.component';
 
 
 const appRoutes: Routes = [
@@ -49,6 +51,8 @@ const appRoutes: Routes = [
     FormSearchComponent,
     TemplateComponent,
     JumbotronComponent,
+    SideBarTemplateComponent,
+    SideTemplateComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),HttpClientModule,

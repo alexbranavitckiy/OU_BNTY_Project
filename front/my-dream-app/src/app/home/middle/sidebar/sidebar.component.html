@@ -3,34 +3,23 @@
     <div class="">
       <h5>Меню навигации</h5>
     </div>
-    <div>
-      <div class="row">
-        <ul class="col">
-          <li>
-            <button class="btn btn-link text-dark" (click)="clickSelection1()">Институт</button>
-            <ul>
-              <li [ngClass]="{side:click1}">
-                <button class="btn btn-link text-dark" (click)="clickSelection2()">Институт2</button>
-                <button class="btn btn-link text-dark" (click)="clickSelection2()">Институт2</button>
-                <button class="btn btn-link text-dark" (click)="clickSelection2()">Институт2</button>
-                <ul>
-                  <li [ngClass]="{side:click2}">
-                    <button class="btn btn-link text-dark" (click)="clickSelection3()">Институт3</button>
-                    <button class="btn btn-link text-dark" (click)="clickSelection3()">Институт3</button>
-                    <button class="btn btn-link text-dark" (click)="clickSelection3()">Институт3</button>
-                    <ul>
-                      <li [ngClass]="{side:click3}">
-                        <button class="btn btn-link text-dark" (click)="clickSelection4()">Институт4</button>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
+
+    <app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+    </app-side-template>
+    <app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+    </app-side-template>
+    <app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+      <app-side-template></app-side-template>
+    </app-side-template>
+
   </div>
 </div>
 
