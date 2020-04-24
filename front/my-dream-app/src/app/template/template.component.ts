@@ -1,7 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Texting} from "../model/texting";
-import {Style} from "@angular/cli/lib/config/schema";
-import {Styles} from "../model/styles";
+import {MyText} from "../contentModel/myText";
 
 @Component({
   selector: 'app-template',
@@ -23,12 +21,12 @@ export class TemplateComponent implements OnInit {
 
 
 
-  text: Texting[] = [new Texting(1, "Институт объединяет в своем составе:", null, 1)
-    , new Texting(2, "кафедру «Естественнонаучные и творческие дисциплины»;", null, 1),
-    new Texting(3, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
-      null, 1), new Texting(4, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
-      null, 1), new Texting(5, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
-      null, 1)];
+  text: MyText[] = [new MyText(1, "Институт объединяет в своем составе:", null, )
+    , new MyText(2, "кафедру «Естественнонаучные и творческие дисциплины»;", null, ),
+    new MyText(3, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
+      null, ), new MyText(4, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
+      null, ), new MyText(5, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",
+      null, )];
 
   ngOnInit(): void {
   }

@@ -2,19 +2,19 @@
 
 
 
+export class MyStyle {
 
-
-
-
-export class Styles {
   private _id: number;
   private _name: string;
   private _parameter: string;
 
 
-  constructor() {
-
+  constructor(id: number, name: string, parameter: string) {
+    this._id = id;
+    this._name = name;
+    this._parameter = parameter;
   }
+
 
   get id(): number {
     return this._id;

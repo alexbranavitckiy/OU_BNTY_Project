@@ -1,0 +1,45 @@
+
+<div [ngSwitch]="getContentTemplateNumber()" class="jumbotronStyle d-none d-xl-block ">
+  <div *ngSwitchCase="2" class="container-fluid jumbotronStyle">
+    <div class="jumbotron container">
+      <p class="container"  >{{getContentText()[1].name}}</p>
+      <!--[ngStyle]="{'font-size': getContentStyle()[1].parameter}"  'font-size':'14px'-->
+      <p class=" container">{{getContentText()[2].name}}</p>
+      <hr class="my-4 ">
+      <p class="container">{{getContentText()[3].name}}</p>
+      <div class=" container">
+        <a class="btn btn-secondary " href="#" role="button">{{getContentText()[4].name}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid jumbotronStyle " *ngSwitchCase="1">
+    <div class="card bg-light" style="width: 18rem;">
+    <!--  <img src="..." class="card-img-top" alt="...">-->
+      <div class="card-body">
+        <h5 class="card-title">{{getContentText()[0].name}}</h5>
+        <p class="card-text">{{getContentText()[1].name}}</p>
+        <a href="#" class="btn btn-secondary">{{getContentText()[3].name}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid jumbotronStyle" *ngSwitchCase="1">
+    <div class="card bg-light" style="width: 18rem;">
+      <!--  <img src="..." class="card-img-top" alt="...">-->
+      <div class="card-body">
+        <h5 class="card-title">Название карточки2</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-secondary">Переход куда-нибудь</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid jumbotronStyle" *ngSwitchCase="4">
+    <div class="card bg-light" style="width: 18rem;">
+      <!--  <img src="..." class="card-img-top" alt="...">-->
+      <div class="card-body">
+        <h5 class="card-title">Название карточки3</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-secondary">Переход куда-нибудь</a>
+      </div>
+    </div>
+  </div>
+</div>

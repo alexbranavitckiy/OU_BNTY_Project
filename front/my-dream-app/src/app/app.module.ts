@@ -22,8 +22,10 @@ import { TemplateComponent } from './template/template.component';
 import {HttpClientModule} from "@angular/common/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FormsModule} from "@angular/forms";
-import {Services} from "./services/Services";
+import {Services} from "./services/services";
 import {SideBarDirectiv} from "./directive/SideBarDirectiv";
+import { JumbotronComponent } from './home/middle/jumbotron/jumbotron.component';
+import {ContentsServices} from "./services/contentsServices";
 
 
 const appRoutes: Routes = [
@@ -46,6 +48,7 @@ const appRoutes: Routes = [
     FormEntryComponent,
     FormSearchComponent,
     TemplateComponent,
+    JumbotronComponent,
   ],
   imports: [
     RouterModule.forRoot(appRoutes),HttpClientModule,
@@ -56,7 +59,7 @@ const appRoutes: Routes = [
     ModalModule.forRoot(), BrowserAnimationsModule,
     AccordionModule.forRoot(), FormsModule,
   ],
-  providers: [Services],
+  providers: [Services,ContentsServices],
   bootstrap: [AppComponent]
 })
 export class AppModule {

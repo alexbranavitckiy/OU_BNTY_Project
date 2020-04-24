@@ -1,7 +1,7 @@
 import {HttpClient, HttpHeaders, HttpParams} from "@angular/common/http";
 import {Injectable} from "@angular/core";
 import {map} from "rxjs/operators";
-import {User} from "./User";
+import {User} from "./user";
 import {Observable} from "rxjs";
 
 
