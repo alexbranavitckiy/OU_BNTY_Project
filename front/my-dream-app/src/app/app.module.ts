@@ -26,17 +26,21 @@ import {Services} from "./services/services";
 import {SideBarDirectiv} from "./directive/SideBarDirectiv";
 import { JumbotronComponent } from './home/middle/jumbotron/jumbotron.component';
 import {ContentsServices} from "./services/contentsServices";
-import { SideBarTemplateComponent } from './home/middle/sidebar/side-bar-template/side-bar-template.component';
 import { SideTemplateComponent } from './home/middle/sidebar/side-template/side-template.component';
+import {SideBarPipe} from "./pipe/SideBarPipe";
 
+
+const ContentRoutes: Routes = [
+  { path: 'sidebar/:name', component: ContentComponent},
+];
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: '**', component: HomeComponent}
+  {path: '', component: HomeComponent,children:ContentRoutes},
+  {path: '**', component: HomeComponent},
 ];
 
 @NgModule({
-  declarations: [SideBarDirectiv,
+  declarations: [SideBarDirectiv,SideBarPipe,
     AppComponent,
     HomeComponent,
     MiddleComponent,
@@ -51,8 +55,8 @@ const appRoutes: Routes = [
     FormSearchComponent,
     TemplateComponent,
     JumbotronComponent,
-    SideBarTemplateComponent,
     SideTemplateComponent,
+
   ],
   imports: [
     RouterModule.forRoot(appRoutes),HttpClientModule,

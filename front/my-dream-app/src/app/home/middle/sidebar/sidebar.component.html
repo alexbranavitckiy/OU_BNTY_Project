@@ -1,27 +1,133 @@
-<div class="container rounded border  border-light">
+<div class="container rounded">
   <div class="sidebar ">
     <div class="">
       <h5>Меню навигации</h5>
     </div>
-
-    <app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-    </app-side-template>
-    <app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-    </app-side-template>
-    <app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-      <app-side-template></app-side-template>
-    </app-side-template>
-
+    <div class="container rounded">
+      <div>
+        <ul *ngFor="let value of sideB;trackBy: trackByFn;">
+          <li  *ngIf="value.parent_Id==0">
+            <button class="btn btn-link text-dark" (click)="click(value.id)">{{value.name}}</button>
+         <div [ngClass]="{side:value.level}">
+            <ul *ngFor=" let mas of mass;trackBy: trackByFn;">
+              <li >{{mas.name}}</li>
+            </ul>
+         </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 
 
+<!--
+<div class="container rounded">
+  <div>
+    <ul *ngFor="let group of SideBarE;let x=index">
+      <li>
+        <button class="btn btn-link text-dark" >{{group.Level1}}</button>
+      </li>
+      <ul >
+        <li *ngFor="let person of group.Level2">
+          <button class="btn btn-link text-dark"  >{{person.name}}</button>
+          <ul >
+            <li *ngFor="let person2 of person.Level3 ">
+              <button class="btn btn-link text-dark">{{ person2.name}}</button>
+              <ul >
+                <li *ngFor="let person3 of person2.Level4">
+                  <button class="btn btn-link text-dark"> {{ person3.name}}</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </ul>
+  </div>
+</div>
 
+  SideBarE: any[] = [
+    {
+      'Level1': "Руководство института",
+      'Level2': [
+        {
+          "name": "Образование"
+        },
+        {
+          "name": "Наука"
+        },
+        {
+          "Level3": [
+
+            {
+              "name": "name3 "
+            },
+            {
+              "name": "name3_1"
+            }
+          ]
+        },
+        {
+          "Level3": [
+
+            {
+              "Level4": [
+                {
+                  "name": "name3 "
+                },
+                {
+                  "name": "name3_1 "
+                }
+              ]
+            }
+          ]
+        },
+      ],
+    },
+    {
+      'Level1': 'Образование',
+      'Level2': [
+        {
+          "name": "Day  Meyers"
+        },
+        {
+          "name": "Aguirre  Ellis"
+        },
+        {
+          "name": "Cook  Tyson"
+        }
+      ]
+    },
+    {
+      'Level1': 'Учеба',
+      'Level2': [
+        {
+          "name": "Day  Meyers"
+        },
+        {
+          "name": "Aguirre  Ellis"
+        },
+        {
+          "name": "Cook  Tyson"
+        }
+      ]
+    },
+    {
+      'Level1': 'физра',
+      'Level2': [
+        {
+          "name": "Day  Meyers"
+        },
+        {
+          "name": "Aguirre  Ellis"
+        },
+        {
+          "name": "Cook  Tyson"
+        }
+      ]
+    }
+  ];
+
+
+-->

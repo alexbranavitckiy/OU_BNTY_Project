@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {SideBar} from "../../../../contentModel/sideBar";
 
 @Component({
   selector: 'app-side-template',
@@ -7,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideTemplateComponent implements OnInit {
 
+
+  @Input() sideBar:SideBar[];
+
+
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.sideBar);
   }
+
 
   click1: boolean = true;
   click2: boolean = true;

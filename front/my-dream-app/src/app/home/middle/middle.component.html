@@ -1,16 +1,35 @@
 <div class="middle">
   <div class="row">
+    <div class="col justify-content-center">
+      <ul class="nav">
+
+        <li class="nav-item">
+          <a [routerLink]="['']" class="nav-link active">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Моя учётная запись</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Личный кабинет абитуриента БНТУ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Выйти</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-3 ">
       <div class=" container-fluid">
         <app-sidebar></app-sidebar>
       </div>
     </div>
-    <div class=" col-md-6">
-      <div class="container-fluid">
+    <div class="col-lg-9 col-md-9 col-xl-6">
+      <div class="container-fluid  min-vh-100">
         <app-content></app-content>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 d-none d-xl-block">
       <div class="container-fluid">
         <app-jumbotron></app-jumbotron>
       </div>

@@ -19,8 +19,6 @@ export class TemplateComponent implements OnInit {
 
 
 
-
-
   text: MyText[] = [new MyText(1, "Институт объединяет в своем составе:", null, )
     , new MyText(2, "кафедру «Естественнонаучные и творческие дисциплины»;", null, ),
     new MyText(3, "региональный центр тестирования и профессиональной ориентации учащейся молодежи;",

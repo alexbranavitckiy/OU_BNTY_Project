@@ -2,6 +2,7 @@ import {MyStyle} from "./myStyle";
 
 
 export class MyText {
+
   private _id: number;
   private _name: string;
   private _style_id: MyStyle[];

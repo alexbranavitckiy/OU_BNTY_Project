@@ -24,20 +24,6 @@ export class JumbotronComponent implements OnInit {
   ngOnInit(): void {
     this.content = this.contentsServices.getContentId(this.contentName);
   }
-sdf(){
-
-  let person = {name:"Tom", age:23};
-// альтернативный вариант получения свойства
-}
-
-  getMyStyles(number: number) {
-    let name: string = this.getContentStyle()[number].name;
-    let parameter: string = this.getContentStyle()[number].parameter;
-    let myStyles = {
-      'name': parameter,
-    };
-    return myStyles;
-  }
 
 
   getContentTemplateNumber(): number {
