@@ -12,25 +12,14 @@ export class SidebarComponent implements OnInit {
 
   @Input() sideBar: SideBaring[];
 
-  sideB: SideBaring[];
+
 
   constructor() {
   }
 
   ngOnInit(): void {
-    if (this.sideBar != undefined) {
-      this.sideB = this.sideBar;
-    } else {
-      this.sideB = [
-        {id: 0, name: "Руководство института", level: true, parent_Id: 0},
-        {id: 1, name: "Да или нет", level: true, parent_Id: 0},
-        {id: 2, name: "Ты солдат", level: true, parent_Id: 0},
-        {id: 3, name: "Мы все умрем", level: true, parent_Id: 0},
-        {id: 4, name: "Я не здамся без боя", level: true, parent_Id: 1},
-        {id: 5, name: "Руководство института", level: true, parent_Id: 2},
-        {id: 6, name: "Руководство института", level: true, parent_Id: 3},
-        {id: 7, name: "Руководство института", level: true, parent_Id: 4}]
-    }
+
+
   }
 
   mass: SideBaring[] = [];
@@ -44,19 +33,19 @@ export class SidebarComponent implements OnInit {
     if (this.flagIdPrevious === undefined || this.flagIdPrevious != id) {
       this.flagIdPrevious = id;
       this.mass = [];
-      for (let x = 0; x < this.sideB.length; x++) {
-        if (this.sideB[x].level === false) {
-          this.setFlagOpen(this.sideB[x]);
+      for (let x = 0; x < this.sideBar.length; x++) {
+        if (this.sideBar[x].level === false) {
+          this.setFlagOpen(this.sideBar[x]);
         }
-        if (this.sideB[x].parent_Id === id) {
-          this.mass.push(this.sideB[x]);
+        if (this.sideBar[x].parent_Id === id) {
+          this.mass.push(this.sideBar[x]);
         }
       }
       if (this.mass.length > 0) {
-        this.setFlagOpen(this.sideB[id]);
+        this.setFlagOpen(this.sideBar[id]);
       }
     } else {
-      this.setFlagOpen(this.sideB[id]);
+      this.setFlagOpen(this.sideBar[id]);
     }
   }
 
