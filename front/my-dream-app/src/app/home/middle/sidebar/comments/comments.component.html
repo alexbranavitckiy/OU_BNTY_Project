@@ -1,1 +1,16 @@
-<p>comments works!</p>
+
+
+
+
+
+
+<div *ngFor="let comment of comments">
+  <ul>
+    <li>
+      <button (click)="flagTurn(comment)">{{comment.text}}</button>
+      <div *ngIf="comment.flag===false">
+        <comments [comments]="comment.comments" *ngIf="comment.comments"></comments>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -28,6 +28,7 @@ import { JumbotronComponent } from './home/middle/jumbotron/jumbotron.component'
 import {ContentsServices} from "./services/contentsServices";
 import { SideTemplateComponent } from './home/middle/sidebar/side-template/side-template.component';
 import {SideBarPipe} from "./pipe/SideBarPipe";
+import { CommentsComponent } from './home/middle/sidebar/comments/comments.component';
 
 
 const ContentRoutes: Routes = [
@@ -56,6 +57,7 @@ const appRoutes: Routes = [
     TemplateComponent,
     JumbotronComponent,
     SideTemplateComponent,
+    CommentsComponent,
 
   ],
   imports: [

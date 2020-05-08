@@ -1,20 +1,8 @@
-<div class="container rounded">
+<div class="container-fluid rounded">
   <div class="sidebar ">
-    <div class="">
-      <h5>Меню навигации</h5>
-    </div>
     <div class="container rounded">
-      <div>
-        <ul *ngFor="let value of sideBar;trackBy: trackByFn;">
-          <li  *ngIf="value.parent_Id==0">
-            <button class="btn btn-link text-dark" (click)="click(value.id)">{{value.name}}</button>
-         <div [ngClass]="{side:value.level}">
-            <ul *ngFor=" let mas of mass;trackBy: trackByFn;">
-              <li >{{mas.name}}</li>
-            </ul>
-         </div>
-          </li>
-        </ul>
+      <div *ngFor="let mass of sideBar;let x=index">
+ {{mass}}
       </div>
     </div>
   </div>
