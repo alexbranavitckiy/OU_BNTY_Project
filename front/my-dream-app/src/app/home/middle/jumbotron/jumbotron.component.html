@@ -1,6 +1,6 @@
 
 <div [ngSwitch]="getContentTemplateNumber()" class="jumbotronStyle  ">
-  <div *ngSwitchCase="2" class="container-fluid jumbotronStyle">
+  <div *ngSwitchCase="2" class="container-fluid jumbotronStyle ">
     <div class="jumbotron container">
       <p class="container"  >{{getContentText()[1].name}}</p>
       <!--[ngStyle]="{'font-size': getContentStyle()[1].parameter}"  'font-size':'14px'-->
@@ -22,7 +22,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid jumbotronStyle" *ngSwitchCase="1">
+  <div class="container-fluid jumbotronStyle pt-1" *ngSwitchCase="1">
     <div class="card bg-light" style="width: 18rem;">
       <!--  <img src="..." class="card-img-top" alt="...">-->
       <div class="card-body">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid jumbotronStyle" *ngSwitchCase="4">
+  <div class="container-fluid jumbotronStyle " *ngSwitchCase="4">
     <div class="card bg-light" style="width: 18rem;">
       <!--  <img src="..." class="card-img-top" alt="...">-->
       <div class="card-body">

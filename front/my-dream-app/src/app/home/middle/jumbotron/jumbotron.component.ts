@@ -1,8 +1,8 @@
 import {Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {ContentsServices} from "../../../services/contentsServices";
-import {Content} from "../../../contentModel/content";
-import {MyText} from "../../../contentModel/myText";
-import {MyStyle} from "../../../contentModel/myStyle";
+import {Content} from "../../../model/content";
+import {MyText} from "../../../model/myText";
+import {MyStyle} from "../../../model/myStyle";
 
 @Component({
   selector: 'app-jumbotron',

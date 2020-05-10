@@ -26,9 +26,9 @@ import {Services} from "./services/services";
 import {SideBarDirectiv} from "./directive/SideBarDirectiv";
 import { JumbotronComponent } from './home/middle/jumbotron/jumbotron.component';
 import {ContentsServices} from "./services/contentsServices";
-import { SideTemplateComponent } from './home/middle/sidebar/side-template/side-template.component';
 import {SideBarPipe} from "./pipe/SideBarPipe";
-import { CommentsComponent } from './home/middle/sidebar/comments/comments.component';
+import { CommentsComponent } from './home/middle/sidebar/sideBarTamplate/comments.component';
+import { NavBarComponent } from './home/middle/nav-bar/nav-bar.component';
 
 
 const ContentRoutes: Routes = [
@@ -56,8 +56,8 @@ const appRoutes: Routes = [
     FormSearchComponent,
     TemplateComponent,
     JumbotronComponent,
-    SideTemplateComponent,
     CommentsComponent,
+    NavBarComponent,
 
   ],
   imports: [

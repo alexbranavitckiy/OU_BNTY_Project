@@ -1,4 +1,18 @@
 
+.navBarColor {
+  background-color: #00C90D;
+  border: #29A368;
+}
 
-.app-sidebar{
+.border-5 {
+  border-color: #FFFFFF;
+  border-width: 2px !important;
+}
+
+.sidebar {
+  background: rgb(103, 228, 117);
+  background: -moz-linear-gradient(180deg, rgba(103, 228, 117, 1) 0%, rgba(103, 228, 199, 0.2164216028208158) 61%, rgba(0, 130, 9, 0.073564459963673) 78%);
+  background: -webkit-linear-gradient(180deg, rgba(103, 228, 117, 1) 0%, rgba(103, 228, 199, 0.2164216028208158) 61%, rgba(0, 130, 9, 0.073564459963673) 78%);
+  background: linear-gradient(180deg, rgba(103, 228, 117, 1) 0%, rgba(103, 228, 199, 0.2164216028208158) 61%, rgba(0, 130, 9, 0.073564459963673) 78%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#67e475", endColorstr="#008209", GradientType=1);
 }

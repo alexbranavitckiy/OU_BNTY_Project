@@ -1,5 +1,6 @@
 import {Component, EventEmitter, Input, OnInit, Output, Pipe, PipeTransform} from '@angular/core';
-import {SideBar} from "../../../contentModel/sideBar";
+import {SideBar} from "../../../model/sideBar";
+import {comments} from "./sideBarTamplate/componentData";
 
 @Component({
   selector: 'app-sidebar',
@@ -10,10 +11,8 @@ import {SideBar} from "../../../contentModel/sideBar";
 
 export class SidebarComponent implements OnInit {
 
-  @Input() sideBar: SideBaring[];
+  commentsData = comments;
 
-  str: number= 5;
-  level: number[]=[1,2,3,4,5];
 
   constructor() {
   }
@@ -23,10 +22,4 @@ export class SidebarComponent implements OnInit {
 
 }
 
-export interface SideBaring {
-  id: number;
-  name: string;
-  level: number;
-  parent_Id: number;
-}
 

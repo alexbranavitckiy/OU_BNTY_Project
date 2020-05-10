@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {MyText} from "../contentModel/myText";
+import {MyText} from "../model/myText";
 
 @Component({
   selector: 'app-template',

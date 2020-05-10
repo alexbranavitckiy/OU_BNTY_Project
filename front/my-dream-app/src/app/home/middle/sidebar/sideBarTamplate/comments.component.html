@@ -1,0 +1,15 @@
+
+
+
+<div class="">
+  <div *ngFor="let comment of comments">
+    <ul class=" ">
+      <li class="">
+        <a [routerLink]="['sidebar', 'Институт']" type="button" class="text-dark" (click)="flagTurn(comment)">{{comment.text}}</a>
+        <div class="" *ngIf="comment.flag===false">
+          <comments  [comments]="comment.comments" *ngIf="comment.comments"></comments>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

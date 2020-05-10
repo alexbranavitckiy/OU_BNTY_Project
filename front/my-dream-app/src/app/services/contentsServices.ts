@@ -1,8 +1,8 @@
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
-import {Content} from "../contentModel/content";
-import {MyText} from "../contentModel/myText";
-import {MyStyle} from "../contentModel/myStyle";
+import {Content} from "../model/content";
+import {MyText} from "../model/myText";
+import {MyStyle} from "../model/myStyle";
 import {Service} from "./service";
 
 

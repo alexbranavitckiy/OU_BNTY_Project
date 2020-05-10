@@ -4,7 +4,7 @@ import {Comment} from "./componentData";
 @Component({
   selector: 'comments',
   templateUrl: './comments.component.html',
-  styleUrls: ['./comments.component.css']
+  styleUrls: ['./comments.component.scss']
 })
 export class CommentsComponent implements OnInit {
 
@@ -20,6 +20,9 @@ export class CommentsComponent implements OnInit {
     comments.flag = !comments.flag;
   }
 
+  flagStyle(flag:boolean){
+    return !flag;
+  }
 
 }
 
