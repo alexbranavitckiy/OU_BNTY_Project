@@ -1,25 +1,41 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {Subscription} from "rxjs";
+import {switchMap} from "rxjs/operators";
+import {ContentsServices} from "../../../services/contentsServices";
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.scss']
 })
-export class ContentComponent implements OnInit {
+export class ContentComponent implements OnInit, OnDestroy {
+
+  private name: string;
+  private subscription: Subscription;
+  private subscriptionMessage: Subscription;
+  message: any;
 
 
-  name: string;
-  nameTemplate:string='Институт';
-  private routeSubscription: Subscription;
-  constructor(private activatedRoute: ActivatedRoute) {
-    this.routeSubscription = activatedRoute.params.subscribe(params => this.name = params['name']);
+  constructor(private route: ActivatedRoute, private contentsServices: ContentsServices) {
+    this.subscription = route.params.subscribe(params=>this.name=params['name']);
+    this.subscriptionMessage = this.contentsServices.getMessage().subscribe(message => { this.message = message;
+    });
   }
 
-  ngOnInit(): void {
+  getName(): string {
+    return this.name;
   }
 
+
+  ngOnInit() {
+    this.message='';
+
+  }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe()
+    this.subscriptionMessage.unsubscribe();
+  }
 }
-
 

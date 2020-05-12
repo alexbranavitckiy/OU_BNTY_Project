@@ -15,6 +15,7 @@ export class TemplateComponent implements OnInit {
 
 
   constructor() {
+    this.templateNumber=1;
   }
 
 

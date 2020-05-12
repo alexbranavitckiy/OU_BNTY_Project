@@ -33,6 +33,7 @@ import { NavBarComponent } from './home/middle/nav-bar/nav-bar.component';
 
 const ContentRoutes: Routes = [
   { path: 'sidebar/:name', component: ContentComponent},
+  { path: 'TemplateComponent', component: TemplateComponent},
 ];
 
 const appRoutes: Routes = [

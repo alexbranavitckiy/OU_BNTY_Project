@@ -8,5 +8,16 @@
 }
 
 .background_color_footer {
-
+  background: rgb(24,175,0);
+  background: -moz-linear-gradient(90deg, rgba(24,175,0,1) 30%, rgba(29,211,0,1) 43%, rgba(56,158,40,1) 73%, rgba(19,137,0,0.9923319669664741) 81%);
+  background: -webkit-linear-gradient(90deg, rgba(24,175,0,1) 30%, rgba(29,211,0,1) 43%, rgba(56,158,40,1) 73%, rgba(19,137,0,0.9923319669664741) 81%);
+  background: linear-gradient(90deg, rgba(24,175,0,1) 30%, rgba(29,211,0,1) 43%, rgba(56,158,40,1) 73%, rgba(19,137,0,0.9923319669664741) 81%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#18af00",endColorstr="#138900",GradientType=1);
+}
+.background_color_footer_top {
+  background: rgb(29, 211, 0);
+  background: -moz-linear-gradient(90deg, rgba(29, 211, 0, 1) 0%, rgba(56, 158, 40, 1) 20%, rgba(19, 137, 0, 1) 60%);
+  background: -webkit-linear-gradient(90deg, rgba(29, 211, 0, 1) 0%, rgba(56, 158, 40, 1) 20%, rgba(19, 137, 0, 1) 60%);
+  background: linear-gradient(90deg, rgba(29, 211, 0, 1) 0%, rgba(56, 158, 40, 1) 20%, rgba(19, 137, 0, 1) 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1dd300", endColorstr="#138900", GradientType=1);
 }

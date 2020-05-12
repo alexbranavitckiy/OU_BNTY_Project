@@ -4,44 +4,34 @@ import {Content} from "../model/content";
 import {MyText} from "../model/myText";
 import {MyStyle} from "../model/myStyle";
 import {Service} from "./service";
+import {Observable, Subject} from "rxjs";
 
 
 @Injectable({providedIn: 'root'})
-export class ContentsServices implements Service{
+export class ContentsServices {
 
+  private massIdContent: number[];
+
+  private subject = new Subject<any>();
 
   constructor(private http: HttpClient) {
+
   }
 
-  add(body: any) {
+  sendMessage(router_link?: any): void {
+   if (router_link!=undefined){
+    this.subject.next({text: router_link});
+   }
   }
 
-  edit(body: any) {
+  clearMessage(): void {
+    this.subject.next();
   }
 
-  getAll() {
+  getMessage(): Observable<any> {
+    return this.subject.asObservable();
   }
 
-  getId(id: any) {
-  }
-
-  removeId(id: any) {
-  }
-
-
-
-  addContent(content: Content) {
-  }
-
-
-  removeContentId(id: string) {
-  }
-
-  editContent(content: Content) {
-  }
-
-  getAllContent() {
-  }
 
   texts: MyText[] = [new MyText(1, "Заголовок"),
     new MyText(2, "— это практические курсы для учащихся, желающих" +

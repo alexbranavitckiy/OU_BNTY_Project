@@ -1,59 +1,267 @@
-<div class="content bg-white">
-  <router-outlet></router-outlet>
-  <div *ngIf="name===nameTemplate" class="card noOpacity">
-    <div class="card-body">
-      <h5 class="card-title">Институт объединяет в своем составе:</h5>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item ">внутренний мониторинг качества образования студентов БНТУ, целью которого является
-          систематическое отслеживание качества образования студентов, прогнозирование их учебных достижений,
-        </li>
-        <li class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;
-        </li>
-        <li class="list-group-item">внутренний мониторинг качества образования студентов БНТУ, целью которого является
-          систематическое отслеживание качества образования студентов, прогнозирование их учебных достижений,
-        </li>
-        <li class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;</li>
-        <li class="list-group-item">диагностическое тестирование учащихся в общеобразовательных учреждениях Минской
-          области, целью которого является психолого-педагогическая подготовка к централизованному тестированию.
-        </li>
-      </ul>
+<div class="content  ">
+  <div [ngSwitch]="message.text" class=" ">
+    <div>
+      <ng-template ngSwitchCase='Образование'>
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Подготовительное отделение</h6>
+            <p class="card-text">На подготовительном отделении обучаются слушатели, имеющих общее среднее образование и
+              желающих продолжить учебу в Белорусском национальном техническом университете или в других вузах
+              Республики Беларусь по дневной форме обучения и без отрыва от производства на условиях полной оплаты за
+              обучение.</p>
+          </div>
+        </div>
+      </ng-template>
+      <ng-template ngSwitchCase='Образование'>
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-subtitle mb-2 text-muted">Школа юных архитекторов и дизайнеров</h6>
+            <p class="card-text">— это практические курсы для учащихся, желающих расширить свой кругозор, постичь основы
+              архитектуры и дизайна.</p>
+          </div>
+        </div>
+      </ng-template>
     </div>
-    <div class="card-body">
-      <h5 class="card-title">Образование</h5>
-      <p>
-        Подготовительное отделение
-        На подготовительном отделении обучаются слушатели, имеющих общее среднее образование и желающих продолжить учебу
-        в Белорусском национальном техническом университете или в других вузах Республики Беларусь по дневной форме
-        обучения и без отрыва от производства на условиях полной оплаты за обучение.
-      </p>
-    </div>
-  </div>
-  <div *ngIf="name===nameTemplate" class="card">
-    <div class="card-body">
-      <h5 class="card-title">Институт объединяет в своем составе:</h5>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item ">внутренний мониторинг качества образования студентов БНТУ, целью которого является
-          систематическое отслеживание качества образования студентов, прогнозирование их учебных достижений,
-        </li>
-        <li class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;
-        </li>
-        <li class="list-group-item">внутренний мониторинг качества образования студентов БНТУ, целью которого является
-          систематическое отслеживание качества образования студентов, прогнозирование их учебных достижений,
-        </li>
-        <li class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;</li>
-        <li class="list-group-item">диагностическое тестирование учащихся в общеобразовательных учреждениях Минской
-          области, целью которого является психолого-педагогическая подготовка к централизованному тестированию.
-        </li>
-      </ul>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Образование</h5>
-      <p>
-        Подготовительное отделение
-        На подготовительном отделении обучаются слушатели, имеющих общее среднее образование и желающих продолжить учебу
-        в Белорусском национальном техническом университете или в других вузах Республики Беларусь по дневной форме
-        обучения и без отрыва от производства на условиях полной оплаты за обучение.
-      </p>
-    </div>
+    <ng-template ngSwitchCase='Наука'>
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+          <p class="card-text">Для успешной реализации связей между университетом и учреждениями образования
+            республики
+            при БНТУ в 2006 году на базе факультета довузовской подготовки и Регионального центра тестирования был
+            создан Институт интегрированный форм обучения и мониторинга образования, директором которого является
+            кандидат технических наук, доцент Воронова Наталья Петровна.</p>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template ngSwitchDefault>
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted">Подзаголовок карты</h6>
+          <p class="card-text">Для успешной реализации связей между университетом и учреждениями образования
+            республики
+            при БНТУ в 2006 году на базе факультета довузовской подготовки и Регионального центра тестирования был
+            создан Институт интегрированный форм обучения и мониторинга образования, директором которого является
+            кандидат технических наук, доцент Воронова Наталья Петровна.</p>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template ngSwitchDefault>
+      <div class="card ">
+        <div class="card-body">
+          <div class="card-subtitle mb-2  h4 ">Институт объединяет в своем составе:
+          </div>
+          <div class="list-group list-group-flush">
+            <div class="list-group-item">
+              кафедру «Естественнонаучные и творческие дисциплины»;
+            </div>
+            <div class="list-group-item">
+              региональный центр тестирования и профессиональной ориентации учащейся молодежи;
+            </div>
+            <div class="list-group-item">
+              лицей БНТУ
+            </div>
+            <div class="list-group-item">
+              подготовительные курсы;
+            </div>
+            <div class="list-group-item">
+              подготовительное отделение;
+            </div>
+            <div class="list-group-item">
+              отдел профориентационной работы;
+            </div>
+            <div class="list-group-item">
+              отдел мониторинга качества образования.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+
+
+    <ng-template ngSwitchDefault>
+      <div class="card ">
+        <div class="card-body">
+          <div class="card-subtitle mb-2  h4 ">Институт объединяет в своем составе:
+          </div>
+          <div class="list-group list-group-flush">
+            <div class="list-group-item">
+              объединяет и координирует все виды деятельности, связанные с мониторингом образовательного уровня и
+              качества знаний молодежи;
+            </div>
+            <div class="list-group-item">
+              осуществляет реализацию программы непрерывного образования по системе «Школа – ВУЗ»;
+            </div>
+            <div class="list-group-item">
+              организует целенаправленную общеобразовательную подготовку и профориентацию молодежи в соответствии с её
+              будущими профессиональными интересами;
+
+            </div>
+            <div class="list-group-item">
+              профинформирует учащихся, абитуриентов на этапе выбора будущей специальности в рамках проекта «БНТУ идет в
+              школу»;
+            </div>
+            <div class="list-group-item">
+              осуществляет адаптацию выпускников средних и средних - специальных учебных заведений в современном
+              образовательном пространстве, их качественное обучение по новым технологиям в высшей школе;
+            </div>
+            <div class="list-group-item">
+              обеспечивает рост интеллектуального, духовного, культурного, нравственного и физического развития;
+            </div>
+            <div class="list-group-item">
+              отдел мониторинга качества образования.
+            </div>
+            <div class="list-group-item">
+              организует повышение учебного и научного потенциала сотрудников;
+            </div>
+            <div class="list-group-item">
+              осуществляет внутренний мониторинг качества
+              образования студентов БНТУ с целью прогнозирования их учебных достижений и
+              оперативной коррекции хода усвоения материала.
+            </div>
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template ngSwitchCase='Руководство института'>
+      <div class="card bg-light">
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <img src="http://iifoimo.bntu.by/sites/iifoimo.bntu.by/files/images/voronova.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <div class="card-block px-2">
+              <h4 class="card-title">Воронова Наталья Петровна</h4>
+              <p class="card-text ">директор института ИФОиМО БНТУ
+                кандидат технических наук, доцент </p>
+
+              <address>
+                <strong>Контакты:</strong>
+                Адрес:Минск, пр.Независимости, 65, корпус №3 к. 306
+                <strong>Телефоны:</strong><a class="text-body" href="+375 (17) 331 02 55">+375 (17) 331 02 55</a>
+                <a class="text-body" href="+375 (17) 293 93 39">+375 (17) 293 93 39</a>
+                <a class="text-body" href="+375 (17) 292 70 95">+375 (17) 293 93 39</a><br>
+                <strong>Email:</strong> <a class="text-body" href="email:iifomobntu@bntu.by">iifomobntu@bntu.by</a>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template ngSwitchCase='Руководство института'>
+      <div class="card bg-light">
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <img src="http://iifoimo.bntu.by/sites/iifoimo.bntu.by/files/images/voronova.jpg"
+                 class="Card image cap img-fluid" alt="">
+          </div>
+          <div class="col">
+            <div class="card-block px-2">
+              <h4 class="card-title">Воронова Наталья Петровна</h4>
+              <p class="card-text ">директор института ИФОиМО БНТУ
+                кандидат технических наук, доцент </p>
+
+              <address>
+                <strong>Контакты:</strong>
+                Адрес:Минск, пр.Независимости, 65, корпус №3 к. 306
+                <strong>Телефоны:</strong><a class="text-body" href="+375 (17) 331 02 55">+375 (17) 331 02 55</a>
+                <a class="text-body" href="+375 (17) 293 93 39">+375 (17) 293 93 39</a>
+                <a class="text-body" href="+375 (17) 292 70 95">+375 (17) 293 93 39</a><br>
+                <strong>Email:</strong> <a class="text-body" href="email:iifomobntu@bntu.by">iifomobntu@bntu.by</a>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template ngSwitchCase='Институт'>
+      <div class="card bg-light">
+        <div class="row no-gutters">
+          <div class="col-auto">
+            <img src="http://iifoimo.bntu.by/sites/iifoimo.bntu.by/files/images/voronova.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col">
+            <div class="card-block px-2">
+              <h4 class="card-title">Воронова Наталья Петровна</h4>
+              <p class="card-text ">директор института ИФОиМО БНТУ
+                кандидат технических наук, доцент </p>
+
+              <address>
+                <strong>Контакты:</strong>
+                Адрес:Минск, пр.Независимости, 65, корпус №3 к. 306
+                <strong>Телефоны:</strong><a class="text-body" href="+375 (17) 331 02 55">+375 (17) 331 02 55</a>
+                <a class="text-body" href="+375 (17) 293 93 39">+375 (17) 293 93 39</a>
+                <a class="text-body" href="+375 (17) 292 70 95">+375 (17) 293 93 39</a><br>
+                <strong>Email:</strong> <a class="text-body" href="email:iifomobntu@bntu.by">iifomobntu@bntu.by</a>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+
+    <ng-template ngSwitchCase='Институт'>
+      <div class="card ">
+        <div class="card-body">
+          <h5 class="card-title">Наука</h5>
+          <div class="card-subtitle mb-2  h4 ">Институт интегрированных форм обучения и мониторинга (ИИФОиМО)
+            образования организует и проводит:
+          </div>
+          <div class="list-group list-group-flush">
+            <div class="list-group-item">внутренний мониторинг качества образования студентов БНТУ, целью которого
+              является систематическое отслеживание качества образования студентов, прогнозирование их учебных
+              достижений,
+            </div>
+            <div class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;
+            </div>
+            <div class="list-group-item">внутренний мониторинг качества образования студентов БНТУ, целью которого
+              является систематическое отслеживание качества образования студентов, прогнозирование их учебных
+              достижений,
+            </div>
+            <div class="list-group-item">разработка рекомендаций по оперативной коррекции хода усвоения материала;
+            </div>
+            <div class="list-group-item">диагностическое тестирование учащихся в общеобразовательных учреждениях Минской
+              области, целью которого является психолого-педагогическая подготовка к централизованному тестированию
+            </div>
+
+          </div>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template ngSwitchCase='Институт'>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Образование</h5>
+          <h5 class="card-title">Подготовительное отделение</h5>
+          <p class="card-text">На подготовительном отделении обучаются слушатели, имеющих общее среднее образование и
+            желающих продолжить учебу в Белорусском национальном техническом университете или в других вузах Республики
+            Беларусь по дневной форме обучения и без отрыва от производства на условиях полной оплаты за обучение.</p>
+        </div>
+        <div class="card-footer w-100 text-muted">
+          <a class="btn btn-link">Подробнее </a>
+        </div>
+      </div>
+    </ng-template>
   </div>
 </div>

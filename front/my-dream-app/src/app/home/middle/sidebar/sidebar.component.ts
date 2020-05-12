@@ -1,6 +1,7 @@
 import {Component, EventEmitter, Input, OnInit, Output, Pipe, PipeTransform} from '@angular/core';
 import {SideBar} from "../../../model/sideBar";
 import {comments} from "./sideBarTamplate/componentData";
+import {SideBarModel} from "../../../model/sideBarModel";
 
 @Component({
   selector: 'app-sidebar',
@@ -11,13 +12,22 @@ import {comments} from "./sideBarTamplate/componentData";
 
 export class SidebarComponent implements OnInit {
 
-  commentsData = comments;
+  private _commentsData = comments;
 
 
   constructor() {
   }
 
+
   ngOnInit(): void {
+  }
+
+  get commentsData(): SideBarModel[] {
+    return this._commentsData;
+  }
+
+  set commentsData(value: SideBarModel[]) {
+    this._commentsData = value;
   }
 
 }
