@@ -7,14 +7,16 @@
   </div>
   <div class="row  no-gutters  p-1 sidebar">
     <div class="col-md-3 sidebar">
-      <div class="row">
-          <app-sidebar></app-sidebar>
+      <div class="row container">
+        <app-sidebar></app-sidebar>
       </div>
     </div>
 
     <div class="col-lg-9 col-md-9 col-xl-6">
       <div class="min-vh-100">
-        <app-content></app-content>
+        <router-outlet>
+          <app-content></app-content>
+        </router-outlet>
       </div>
     </div>
     <div class="col-md-3 d-none d-xl-block">

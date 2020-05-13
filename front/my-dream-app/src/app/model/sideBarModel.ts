@@ -1,6 +1,5 @@
 export class SideBarModel {
 
-
   id?: number;
   text: string;
   comments?: SideBarModel[]
@@ -16,5 +15,4 @@ export class SideBarModel {
     this.router_link = router_link;
     this.massContent = massContent;
   }
-
 }

@@ -17,6 +17,7 @@ export class MyText {
   }
 
 
+
   get id(): number {
     return this._id;
   }

@@ -3,7 +3,6 @@ import {HttpClient} from "@angular/common/http";
 import {Content} from "../model/content";
 import {MyText} from "../model/myText";
 import {MyStyle} from "../model/myStyle";
-import {Service} from "./service";
 import {Observable, Subject} from "rxjs";
 
 
@@ -19,9 +18,9 @@ export class ContentsServices {
   }
 
   sendMessage(router_link?: any): void {
-   if (router_link!=undefined){
-    this.subject.next({text: router_link});
-   }
+    if (router_link != undefined) {
+      this.subject.next({text: router_link});
+    }
   }
 
   clearMessage(): void {
@@ -33,19 +32,15 @@ export class ContentsServices {
   }
 
 
+  getContentId(name_id: string): Content {
+    return this.contents;
+  }
+
   texts: MyText[] = [new MyText(1, "Заголовок"),
     new MyText(2, "— это практические курсы для учащихся, желающих" +
       " расширить свой кругозор, постичь основы архитектуры и дизайна."),
     new MyText(3, "Name"), new MyText(4, "Мде")]
-
   style: MyStyle[] = [new MyStyle(1, "color:black", "")];
   contents: Content = new Content("1", this.texts, this.style, 1);
-
-
-  getContentId(name_id: string): Content {
-    console.log(name_id);
-    return this.contents;
-  }
-
 
 }
