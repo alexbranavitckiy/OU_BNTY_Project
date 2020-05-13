@@ -20,10 +20,10 @@ export class CommentsComponent implements OnInit {
   }
 
   flagTurn(comments: SideBarModel) {
- //   let url: string = this.router.url.substring(0, this.router.url.indexOf("?"));
- //   this.router.navigateByUrl('sidebar/'+comments.router_link);
+   // let url: string = this.router.url.substring(0, this.router.url.indexOf("?"));
+    this.router.navigateByUrl('sidebar/'+comments.router_link);
     comments.flag = !comments.flag;
-    this.contentsServices.sendMessage(comments.router_link);
+ //   this.contentsServices.sendMessage(comments.router_link);
   }
 
   flagStyle(flag: boolean) {

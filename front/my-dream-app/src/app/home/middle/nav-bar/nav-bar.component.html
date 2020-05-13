@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light ">
-    <a  (click)="setContent('Главная')" class="navbar-brand" href="">Главная</a>
+    <button   routerLink="/sidebar/home" class="btn  btn-link text-dark  navbar-brand">Главная</button>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,11 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a  (click)="setContent('Личный кабнет')" class="nav-link" href="">Личный кабнет<span class="sr-only">(current)</span></a>
+          <button routerLink="/PrivateOfficeComponent" class="btn text-dark  btn-link  nav-link">Личный кабнет<span
+            class="sr-only">(current)</span></button>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark"  type="button"   (click)="setContent('Личный кабинет абинтуриента')" href="">Личный кабинет
-            абинтуриента</a>
+          <button class="nav-link text-dark btn  btn-link " type="button"
+                  routerLink="/StudentsOfficeComponent">Личный
+            кабинет
+            абинтуриента
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-dark btn  btn-link " type="button">Вход/Выход
+          </button>
         </li>
       </ul>
     </div>

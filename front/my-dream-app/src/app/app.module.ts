@@ -30,17 +30,20 @@ import {SideBarPipe} from "./pipe/SideBarPipe";
 import {CommentsComponent} from './home/middle/sidebar/sideBarTamplate/comments.component';
 import {NavBarComponent} from './home/middle/nav-bar/nav-bar.component';
 import {OprosVoprosComponent} from './opros-vopros/opros-vopros.component';
+import { PrivateOfficeComponent } from './home/private-office/private-office.component';
+import { StudentsOfficeComponent } from './home/students-office/students-office.component';
 
 
 const ContentRoutes: Routes = [
-  {path: 'Content', component: ContentComponent, pathMatch: 'full'},
-  {path: 'sidebar/:name', component: ContentComponent, pathMatch: 'full'},
+  {path: 'Content', component: ContentComponent},
+  {path: 'StudentsOfficeComponent', component: StudentsOfficeComponent},
+  {path: 'PrivateOfficeComponent', component: PrivateOfficeComponent},
+  {path: 'sidebar/:name', component: ContentComponent},
 ];
 
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent, children: ContentRoutes},
-  {path: 'home', component: HomeComponent, children: ContentRoutes, pathMatch: 'full'},
   {path: '**', component: HomeComponent},
 ];
 
@@ -64,6 +67,8 @@ const appRoutes: Routes = [
     CommentsComponent,
     NavBarComponent,
     OprosVoprosComponent,
+    PrivateOfficeComponent,
+    StudentsOfficeComponent,
 
   ],
   imports: [

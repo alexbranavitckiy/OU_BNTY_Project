@@ -15,23 +15,26 @@ export class ContentComponent implements OnInit, OnDestroy {
   private subscription: Subscription;
 
   message: any;
+  name: any;
 
-
-  constructor( private contentsServices: ContentsServices) {
-//    this.subscription = route.params.subscribe(params=>this.name=params['name']); private route: ActivatedRoute,   name:any;
-    this.subscriptionMessage = this.contentsServices.getMessage().subscribe(message => {
-      this.message = message;
+  constructor(private route: ActivatedRoute, private contentsServices: ContentsServices) {
+    this.subscription = route.params.subscribe(params => {
+      this.message = params['name'];
+      console.log(this.message);
     });
-  }
+    //  this.subscriptionMessage = this.contentsServices.getMessage().subscribe(message => {
+    //       this.message = message;
+    //     });
 
+  }
 
 
   ngOnInit() {
-    this.message = '';
+
   }
 
   ngOnDestroy() {
-    this.subscriptionMessage.unsubscribe();
+    this.subscription.unsubscribe();
   }
 }
 
