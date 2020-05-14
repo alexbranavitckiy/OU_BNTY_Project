@@ -11,11 +11,9 @@ import {ContentsServices} from "../../../services/contentsServices";
 })
 export class ContentComponent implements OnInit, OnDestroy {
 
-  private subscriptionMessage: Subscription;
   private subscription: Subscription;
 
   message: any;
-  name: any;
 
   constructor(private route: ActivatedRoute, private contentsServices: ContentsServices) {
     this.subscription = route.params.subscribe(params => {
@@ -25,7 +23,6 @@ export class ContentComponent implements OnInit, OnDestroy {
     //  this.subscriptionMessage = this.contentsServices.getMessage().subscribe(message => {
     //       this.message = message;
     //     });
-
   }
 
 

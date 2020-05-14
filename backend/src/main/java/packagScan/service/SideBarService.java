@@ -1,4 +1,11 @@
 package packagScan.service;
 
-interface SideBarService {
+
+import packagScan.entity.Bar;
+
+public interface SideBarService {
+
+
+
+ //   Iterable<Bar> getAll();
 }

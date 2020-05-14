@@ -1,0 +1,6 @@
+packagScan\controller\SideBarController.class
+packagScan\repository\SdeBarRepository.class
+packagScan\service\impl\SideBarServiceImpl.class
+packagScan\BackendApp.class
+packagScan\entity\Bar.class
+packagScan\service\SideBarService.class

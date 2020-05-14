@@ -7,21 +7,19 @@ export const comments: SideBarModel[] = [
     text: "Институт",
     flag: true,
     router_link: "Институт",
-    massContent: [1, 2, 3, 4],
     comments: [
       {
         id: 2,
         text: "Руководство института",
         router_link: "Руководство института",
-        massContent: [1, 2, 3, 4, 5],
         flag: true,
       }, {
-        id: 4,
+        id: 3,
         text: "Образование",
         flag: true,
         router_link: "Образование",
       }, {
-        id: 6,
+        id: 4,
         text: "Наука",
         flag: true,
         router_link: "Наука",
@@ -30,32 +28,32 @@ export const comments: SideBarModel[] = [
   },
   {
     text: "Кафедра «Естественнонаучные и творческие дисциплины»",
-    id: 8,
+    id: 5,
     flag: true,
     router_link: "Кафедра «Естественнонаучные и творческие дисциплины»",
     comments: [
       {
-        id: 9,
+        id: 6,
         text: "Cостав кафедры",
         flag: true,
         router_link: "Cостав кафедры",
       },
       {
-        id: 10,
+        id: 7,
         text: "Обучение",
         router_link: "Обучение",
         flag: true,
       }
       ,
       {
-        id: 7,
+        id: 8,
         text: "Научная деятельность",
         router_link: "Научная деятельность",
         flag: true,
       }
       ,
       {
-        id: 7,
+        id: 9,
         router_link: "План заседаний кафедры и подготовки учебно-методической литературы",
         text: "План заседаний кафедры и подготовки учебно-методической литературы",
         flag: true,
@@ -65,18 +63,18 @@ export const comments: SideBarModel[] = [
   ,
   {
     text: "Подраздиления",
-    id: 6,
+    id: 10,
     router_link: "Подраздиления",
     flag: true,
     comments: [
       {
-        id: 7,
+        id: 11,
         router_link: "Региональный центр тестирования и профессиональной ориентации учащейся молодежи",
         text: "Региональный центр тестирования и профессиональной ориентации учащейся молодежи",
         flag: true
       },
       {
-        id: 7,
+        id: 12,
         router_link: "Подготовительное отделение",
         text: "Подготовительное отделение",
         flag: true
@@ -86,31 +84,32 @@ export const comments: SideBarModel[] = [
   ,
   {
     text: "Лицей",
-    id: 6,
+    id: 13,
     router_link: "Лицей",
     flag: true
   }
   ,
   {
     text: "Школа юных архитекторов и дизайнеров",
-    id: 6,
+    id: 14,
     router_link: "Школа юных архитекторов и дизайнеров",
     flag: true,
   },
   {
     text: "Онлайн-консультации",
     router_link: "Онлайн-консультации",
-    id: 6,
+    id: 15,
     flag: true,
     comments: [
       {
-        id: 7,
+        id: 16,
         router_link: "Расписание онлайн-консультаций",
         text: "Расписание онлайн-консультаций",
         flag: true,
       },
       {
-        id: 7,
+        id: 17,
+        router_link: "Онлайн-консультации для студентов",
         text: "Онлайн-консультации для студентов",
         flag: true,
       }
@@ -118,38 +117,47 @@ export const comments: SideBarModel[] = [
   }
   ,
   {
+    router_link: "Политехническая школа юных",
     text: "Политехническая школа юных",
-    id: 6,
+    id: 18,
     flag: true
   }
   ,
   {
     text: "Подготовка к ЦТ и Поступлению в ВУЗ",
-    id: 6,
+    id: 19,
     flag: true,
+    router_link: "Подготовка к ЦТ и Поступлению в ВУЗ",
+
     comments: [
       {
-        id: 7,
+        id: 20,
+        router_link: "Подготовительные курсы",
         text: "Подготовительные курсы",
         flag: true
       },
       {
-        id: 7,
+        id: 21,
+        router_link: "Выездные подготовительные курсы",
         text: "Выездные подготовительные курсы",
         flag: true
       },
       {
-        id: 7,
+        id: 22,
+        router_link: "Подготовительное отделение",
         text: "Подготовительное отделение",
         flag: true
       },
       {
-        id: 7,
+        id: 23,
         text: "Профориентационная диагностика в БНТУ",
-        flag: true
+        flag: true,
+        router_link: "Профориентационная диагностика в БНТУ",
+
       },
       {
-        id: 7,
+        id: 24,
+        router_link: "Дистанционная подготовка к ЦТ по математике",
         text: "Дистанционная подготовка к ЦТ по математике",
         flag: true
       }
@@ -158,12 +166,14 @@ export const comments: SideBarModel[] = [
   ,
   {
     text: "Профориентационные субботы БНТУ",
-    id: 6,
+    id: 25,
+    router_link: "Профориентационные субботы БНТУ",
     flag: true,
   },
   {
     text: "Регистрация на репетиционное тестирование",
-    id: 6,
+    id: 26,
+    router_link: "Регистрация на репетиционное тестирование",
     flag: true,
   }
 ];
